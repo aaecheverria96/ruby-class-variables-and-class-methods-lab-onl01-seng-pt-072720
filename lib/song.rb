@@ -35,7 +35,7 @@ end
 def self.genre_count
   sorted_genre = {}
   @@genres.each do |genre,count|
-    sorted_genre[@@genres] = @@count
+    sorted_genre[genre] = @@count
     binding.pry
 end
 sorted_genre
