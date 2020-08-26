@@ -33,6 +33,8 @@ def self.artists
 end
 
 def self.genre_count
-  self.genres.count
+  counted_genres = {}
+  @@genres.each do |genre|
+    counted_genres[genre] = self.genre.count
 end
 end
