@@ -37,7 +37,7 @@ def self.genre_count
     @@genres.each do |genre|
     if counted_genres[genres]
     else
-      counted_genres[genre] = 1
+      counted_genres[genre] = +=1
 end
 end
 counted_genres
