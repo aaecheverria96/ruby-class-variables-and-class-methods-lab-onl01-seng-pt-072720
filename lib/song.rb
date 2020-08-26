@@ -39,3 +39,4 @@ def self.genre_count
 end
 sorted_genre
 end
+end 
