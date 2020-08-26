@@ -42,5 +42,16 @@ def self.genre_count
 end
 end
 counted_genres
-end
+end 
+
+def self.artist_count 
+  counted_artists = {}
+  @@artists.each do |artist| 
+    if counted_artists[artists] 
+      counted_artists[genre] += 1 
+    else 
+      counted_artists[artist] = 1 
+    end 
+  end 
+  counted_artists
 end
