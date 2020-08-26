@@ -37,4 +37,6 @@ def self.genre_count
   @@genres.each do |genre|
     counted_genres[genre] = self.genre.count
 end
+counted_genres
+end
 end
