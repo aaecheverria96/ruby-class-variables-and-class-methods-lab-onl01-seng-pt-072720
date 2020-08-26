@@ -32,7 +32,10 @@ def self.artists
   @@artists.uniq
 end
 
-def self.genre_count
+def self.genre_count 
+  sorted_genre = {}
+  @@genres.each do |genre,count| 
+    sorted_genre[@genres] = @@count  
 
 end
 end
