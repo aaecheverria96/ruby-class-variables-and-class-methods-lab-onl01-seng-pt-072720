@@ -34,8 +34,8 @@ end
 
 def self.genre_count
   sorted_genre = {}
-  @@genres.each do |genre,count|
-    sorted_genre[genre] = count
+  @@genres.each do |genre,@@genres.uniq.count|
+    sorted_genre[genre] = @@genres.uniq.count
 end
 sorted_genre
 end
