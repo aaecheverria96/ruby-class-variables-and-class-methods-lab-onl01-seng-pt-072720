@@ -38,7 +38,7 @@ def self.genre_count
     if counted_genres[genres]
     else
       counted_genres[:genre]
-end 
+end
 end
 counted_genres
 end
